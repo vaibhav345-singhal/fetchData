@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    padding: 6px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #2b2b2b;
+    color: #fff;
+  }
+  
+  #searchButton,
+  #sortButton,
+  #sortButtonPer {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #searchButton:hover,
+  #sortButton:hover,
+  #sortButtonPer:hover {
+    background-color: #45a049;
+  }
+  
+  #coinTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #coinTable th,
+  #coinTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+  }
+  
+  #coinTable th {
+    background-color: #333;
+  }
+  
+  .coin-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .coin-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .coin-name {
+    font-weight: bold;
+  }
+  
+  

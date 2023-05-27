@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>API Example</title>
+  </head>
+  <body>
+    <h1>API Example</h1>
+
+    <div class="top">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search By Name or Symbol"
+      />
+      <button id="searchButton">Search</button>
+      <button id="sortButton">Sort By Mkt Cap</button>
+      <button id="sortButtonPer">Sort By Percentage</button>
+    </div>
+
+    <table id="coinTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Current Price</th>
+          <th>Total Volume</th>
+          <th>Percentage Change</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead>
+      <tbody id="coinTableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
